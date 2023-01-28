@@ -1,6 +1,6 @@
 % carga datos relacionados con el erchivo Emo_Flechas
 % variables emoflechasload 
-function [numPart_Duracion, strAction] = loadTaskAction(indices,emoflechas)
+function [numPart_Duracion, strAction   ] = loadTaskAction(indices,emoflechas)
     indices = indices - indices(1,1) +1;
     numdata = indices(end,2) - indices(1,1) +1;
     numPart_Duracion = ones(numdata,2);
