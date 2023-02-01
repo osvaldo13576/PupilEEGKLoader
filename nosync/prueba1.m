@@ -52,6 +52,36 @@ index_pupil = zeros(length(dat1),1);
     
 
 
+%%
+delete('My_file.xlsx')
+data=ones(10,1);     %Sample 2-dimensional data
+data_cells=num2cell(data);     %Convert data to cell array
+col_header={'Temperature','Pressure','X','Y'};     %Row cell array (for column labels)
+output_matrix=[col_header;  data_cells data_cells data_cells data_cells];     %Join cell arrays
+writecell(output_matrix,'My_file.xlsx','Sheet','canal1');     %Write data and both headers
+writecell(output_matrix,'My_file.xlsx','Sheet','canal2');     %Write data and both headers
+%%
+num = readtable('My_file.xlsx')
+convert_timestamp(1674236948.5751748)
+%%
+datosemof = loadEmoFlechas('C:\Users\HP\Documents\c3 data\SANTIAGO_ID_0000009\eeg_tarea\Prueba_Oficial.data.2022-11-14--19-07.txt')
+%%
+datoseeg=loadEEG('C:\Users\HP\Documents\c3 data\SANTIAGO_ID_0000009\eeg_tarea\eeg_data_data.txt',0);
+datoselec = datoseeg(1:10,1); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
