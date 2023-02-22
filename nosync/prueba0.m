@@ -65,6 +65,31 @@ datos = csv_to_binary_blinks(archivo,num_datos);
 %% read hdf5
 archivo = 'file.hdf5';
 file_hdf5 = h5disp(archivo)  
+%%
+emoflechas = loadEmoFlechas('C:\Users\HP\Documents\c3 data\ROCELIA_ID_0000013\eeg_tarea\Prueba_Oficial.data.2023-01-20--18-20.txt');
+respuestas = {'Timeout','Nada','Bala','Error'};
+%%
+datos =  readmatrix('C:\Users\HP\Documents\exported_data\EEGK_fft_L_0000013.xlsx','Sheet',int2str(59));
+%%
+f=figure('visible','off');
+subplot(2,2,1)
+x = linspace(0,10);
+y1 = sin(x);
+plot(x,y1)
+title('Subplot 1: sin(x)')
 
+subplot(2,2,2)
+y2 = sin(2*x);
+plot(x,y2)
+title('Subplot 2: sin(2x)')
 
+subplot(2,2,3)
+y3 = sin(4*x);
+plot(x,y3)
+title('Subplot 3: sin(4x)')
 
+subplot(2,2,4)
+y4 = sin(8*x);
+plot(x,y4)
+title('Subplot 4: sin(8x)')
+exportgraphics(f,'myFile.pdf');

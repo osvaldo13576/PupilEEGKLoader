@@ -68,12 +68,18 @@ datosemof = loadEmoFlechas('C:\Users\HP\Documents\c3 data\SANTIAGO_ID_0000009\ee
 %%
 datoseeg=loadEEG('C:\Users\HP\Documents\c3 data\SANTIAGO_ID_0000009\eeg_tarea\eeg_data_data.txt',0);
 datoselec = datoseeg(1:10,1); 
+%%
+datos = readtable('C:\Users\HP\Documents\exported_data\EEGK_L_0000013.xlsx','Sheet','1_d54a');
+%%
+datos.tiempo(end)-datos.tiempo(1)
 
-
-
-
-
-
+%%
+fs = 200;
+t = 0:1/fs:1-1/fs;
+signals = zeros(256,28);
+%%
+length(signals)
+    
 
 
 

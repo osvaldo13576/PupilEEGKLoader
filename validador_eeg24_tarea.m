@@ -1,6 +1,6 @@
 %busca los archivos relacionados con eeg24, su timestamp y la tarea
 %directorio = 'C:\Users\HP\Documents\c3 data\SANTIAGO_ID_0000009';
-    function c = validador_eeg24_tarea(directorio)
+function c = validador_eeg24_tarea(directorio)
     eegfile = EEGdata_finder(fullfile(directorio,'eeg_tarea'));
     Emo_Flechasfile = EmoFlechas_finder(fullfile(directorio,'eeg_tarea'));
     set = length(eegfile)*length(Emo_Flechasfile);

@@ -1,0 +1,178 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="G:\.shortcut-targets-by-id\1DhRmTzjn_u9pGXS6PfGYo2z7KikdELoW\C3 Data\PupilEEGKLoader\resultados_app.prj" location="G:\.shortcut-targets-by-id\1DhRmTzjn_u9pGXS6PfGYo2z7KikdELoW\C3 Data\PupilEEGKLoader" name="resultados_app" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>resultados_app</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\resultados_app\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>C:\Users\osvaldo13576\Documents\app\for_testing</param.intermediate>
+    <param.files.only>C:\Users\osvaldo13576\Documents\app\for_redistribution_files_only</param.files.only>
+    <param.output>C:\Users\osvaldo13576\Documents\app\for_redistribution</param.output>
+    <param.logdir>C:\Users\osvaldo13576\Documents\app</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\resultados_app.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\convert_timestamp.m</file>
+      <file>${PROJECT_ROOT}\copyfig.m</file>
+      <file>${PROJECT_ROOT}\crop_borders.m</file>
+      <file>${PROJECT_ROOT}\EEGdata_finder.m</file>
+      <file>${PROJECT_ROOT}\EmoFlechas_finder.m</file>
+      <file>${PROJECT_ROOT}\eps2pdf.m</file>
+      <file>${PROJECT_ROOT}\export_fig.m</file>
+      <file>${PROJECT_ROOT}\file_finder.m</file>
+      <file>${PROJECT_ROOT}\fix_lines.m</file>
+      <file>${PROJECT_ROOT}\generateAll_heat_maps.m</file>
+      <file>${PROJECT_ROOT}\ghostscript.m</file>
+      <file>${PROJECT_ROOT}\gkde2.m</file>
+      <file>${PROJECT_ROOT}\hyperlink.m</file>
+      <file>${PROJECT_ROOT}\is_an_empty.m</file>
+      <file>${PROJECT_ROOT}\isafolder.m</file>
+      <file>${PROJECT_ROOT}\isarchivo.m</file>
+      <file>${PROJECT_ROOT}\isolate_axes.m</file>
+      <file>${PROJECT_ROOT}\listaArchivos.m</file>
+      <file>${PROJECT_ROOT}\listaFolders.m</file>
+      <file>${PROJECT_ROOT}\loadECG.m</file>
+      <file>${PROJECT_ROOT}\loadEEG.m</file>
+      <file>${PROJECT_ROOT}\loadEmoFlechas.m</file>
+      <file>${PROJECT_ROOT}\loadHeatMap.m</file>
+      <file>${PROJECT_ROOT}\loadTaskAction.m</file>
+      <file>${PROJECT_ROOT}\memoria_resultados.mat</file>
+      <file>${PROJECT_ROOT}\pdf2eps.m</file>
+      <file>${PROJECT_ROOT}\pdftops.m</file>
+      <file>${PROJECT_ROOT}\print2array.m</file>
+      <file>${PROJECT_ROOT}\print2eps.m</file>
+      <file>${PROJECT_ROOT}\read_write_entire_textfile.m</file>
+      <file>${PROJECT_ROOT}\readjson.m</file>
+      <file>${PROJECT_ROOT}\sync_EEG_blinks.m</file>
+      <file>${PROJECT_ROOT}\sync_EEG_EF.m</file>
+      <file>${PROJECT_ROOT}\sync_EEG_FrecCard.m</file>
+      <file>${PROJECT_ROOT}\sync_EEG_pupil.m</file>
+      <file>${PROJECT_ROOT}\user_string.m</file>
+      <file>${PROJECT_ROOT}\using_hg2.m</file>
+      <file>${PROJECT_ROOT}\xy_scaled_index.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="C:\Users\osvaldo13576\Documents\app\for_testing" name="resultados_app.exe" optional="false">C:\Users\osvaldo13576\Documents\app\for_testing\resultados_app.exe</file>
+      <file location="C:\Users\osvaldo13576\Documents\app\for_testing" name="readme.txt" optional="true">C:\Users\osvaldo13576\Documents\app\for_testing\readme.txt</file>
+      <file location="C:\Users\osvaldo13576\Documents\app\for_testing" name="splash.png" optional="false">C:\Users\osvaldo13576\Documents\app\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
